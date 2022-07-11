@@ -1,0 +1,149 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        #navbar {
+            display: flex;
+            align-items: center;
+        }
+
+        
+        #logo {
+            height: 50px;
+            margin: 34px 0px;
+        }
+
+        #logo img {
+            height: 116px;
+            margin: 0px 0px;
+        }
+
+        #navbar {
+            position: relative;
+        }
+
+        #navbar ul {
+            display: flex;
+        }
+
+        #navbar ::before {
+            content: "";
+            background-color:blue;
+            position: absolute;
+            height: 100%;
+            width: 50%;
+            z-index: -1;
+            opacity: 0.5;
+        }
+
+        #navbar ul li {
+            list-style:outside;
+            font-size: 1.3rem;
+        }
+
+        #navbar ul li a {
+            color: white;
+            display: block;
+            padding: 3px 22px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+
+        #navbar ul li a:hover {
+            color: black;
+            background-color: aliceblue;
+        }
+
+        
+        #home {
+            display: flex;
+            flex-direction: column;
+            padding: 2px 200px;
+            justify-content: center;
+            align-items: center;
+            height: 663px;
+        }
+
+        #home::before {
+            content: "";
+            background: url('https: //res.cloudinary.com/simplotel/image/upload/x_0,y_87,w_1500,h_844,r_0,c_crop,q_80,fl_progressive/w_960,f_auto,c_fit/hotel-gargee-grand/Lobby_of_4_star_hotel_in_Patna') no-repeat center center/cover;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.6;
+        }
+
+        #home h1 {
+            color: red;
+            text-align: center;
+        }
+
+        #home p {
+            color: black;
+            text-align: center;
+            font-size: 1.5rem;
+            opacity: 10;
+        }
+
+        
+        #services {
+            margin: 34px;
+            display: flex;
+        }
+
+        #services .box {
+            border: 2px solid brown;
+        }
+
+        #services .box img {
+            height: 160px;
+            margin: auto;
+            display: block;
+            margin: 12px;
+
+        }
+
+        
+        .h-primary {
+            font-size: 3.5rem;
+            padding: 12px
+        }
+
+        .h-secondary {
+            font-size: 2.8rem;
+            padding-block-end: 12px;
+        }
+
+        .btn {
+            padding: 6px 20px;
+            background-color: brown;
+            border: 2px solid white;
+            color: white;
+            margin: 17px;
+            font-size: 1.5 rem;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .about-us {
+            text-align: center;
+            background-color: aqua;
+            font-size: medium;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+
+        .form {
+            text-align: center;
+            display: flex box-sizing: content-box;
+        }
+
+        #form1 .div2 {
+                width: 300px;
+                height: 100px;
+                padding: 50px;
+                border: 1px solid red;
+            }
